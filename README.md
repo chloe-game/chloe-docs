@@ -5,6 +5,8 @@ CHLOE. See below for the table of contents.
 
 ## Design Docs
 
+### Game Design
+
 - [About CHLOE](./design-docs/01-about.md)
 - [Game Premise](./design-docs/02-premise.md)
 - [Story Outline](./design-docs/03-story.md)
@@ -18,7 +20,18 @@ CHLOE. See below for the table of contents.
 - [Design Considerations](./design-docs/11-design-considerations.md)
 - [Player Stories](./design-docs/12-player-stories.md)
 
-## Level Design
+### Story Design
+
+#### AWS Well Architected Pillars
+
+- Sustainability
+- Cost Optimization
+- Performance Efficiency
+- Reliability
+- Security
+- Operational Excellence
+
+### Level Design
 
 [Level Design Checklist](./level-design/00-level-design-checklist.md)
 
