@@ -1,10 +1,14 @@
-# Level 0
+# Level 0: Introduction
 
-Level 0 serves as the player's introduction, and outlines the game mechanics and
-storyline. The player is introduced to CHLOE, an intern project that got lost in
-the company's codebase. CHLOE follows the player character and provides
-contextual advice, hints, and other training information to the player within
-levels.
+Level 0 serves as the player's introduction to the game mechanics and storyline.
+First, the player learns the controls and core gameplay loop. The player is
+introduced to CHLOE, an intern project that got lost in the company's codebase.
+CHLOE follows the player character and provides contextual advice, hints, and
+other training information to the player within levels. Once the player is
+familiar with their situation, the core challenge of the level is introduced,
+which will unblock progression into subsequent levels. At this stage, the
+primary antagonist is not yet introduced. The story for this level is composed
+of the following "scenes," or high-level story elements.
 
 ## Objective
 
@@ -18,19 +22,14 @@ become familiarized with the control scheme and gameplay loop.
 Some story elements will be introduced, such as CHLOE the NPC, the player's
 identity and goal (get out of the simulation), and possible sources of conflict.
 
-## Story Breakdown
+## Setup
 
-The story for this level is composed of the following beats.
-
-1. The player walks through controls.
-2. The player is in a data center and an accident happens.
-3. The player wakes up inside the simulation and meets CHLOE (establish
-   identity).
-4. The player is contacted by HR. CHLOE explains the player's situation.
-5. CHLOE explains the player's abilities (working with AWS resources).
-6. CHLOE explains how to find information.
-7. CHLOE explains next steps to the player.
-8. Level end.
+The player starts in their company's on-premises data center. Here, they are
+assigned various operations tasks such as installing server equipment and
+plugging in cables. After the player completes basic tasks that familiarize them
+with the core controls, they are instructed to power on a new server. This
+causes an electrical accident that results in the player blacking out, bringing
+them into the next scene.
 
 ### Controls
 
@@ -102,6 +101,23 @@ The player is in a data center and an accident happens.
     sparks appear, originating from the server.
   - Originating from the server, a larger electric spark occurs.
   - The screen slowly fades to black.
+
+## Introduction
+
+After blacking out, the player wakes up in a virtual world. The world, mostly
+empty, represents their company's AWS account, which had been only used for
+basic backups. Within the backup infrastructure, a moving character is brought
+into focus. As the player approaches, the character introduces herself as Cloud
+Hosted Learning Objective Enablement (CHLOE). CHLOE, an intern AI project left
+in the company's codebase, helps the player understand their situation, and
+explains that the player can return to their body once their company's IT team
+better understands how the accident occurred.
+
+As the player is creating buckets based on CHLOE's suggestions, they are
+interrupted by system mail. The mail messages originate from the on-premises IT
+team, who have found a way to communicate with the player, establishing a link
+to their original form. The IT team requests additional resources and
+configuration, leading to the "main" mission of the level.
 
 ### Where am I?
 
@@ -340,6 +356,14 @@ CHLOE
 - After several seconds, the resource objects will reduce in size, recede into
   CHLOE, and disappear with a small flash of light.
 
+## Gameplay Loop
+
+The core gameplay loop is introduced at this point. CHLOE instructs the player
+that, to help the IT team understand the situation, the player will need to
+collect logging from the environment where they are currently trapped. CHLOE
+walks the player through creation and configuration of Amazon Simple Storage
+Service (Amazon S3) buckets that will be used to store log data.
+
 ### Working with AWS
 
 CHLOE explains the player's abilities (working with AWS resources).
@@ -547,6 +571,14 @@ CHLOE
 CHLOE
 
 > "Awesome job! Now we can sit back and let the logs flow!"
+
+## Level Complete
+
+After the player creates the resources with the configuration requested by the
+IT team, they are congratulated by CHLOE. An additional message is received,
+this time from the player's HR team. As a result of the runaway electrical
+accident, all on-premises IT infrastructure has been destroyed. In order to
+return home, the player must first rebuild their company's operations in AWS.
 
 ### What's Next?
 

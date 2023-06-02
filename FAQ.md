@@ -109,8 +109,9 @@ support their needs.
 In the screenshots below, the existing architecture is highlighted based on
 security configuration issues.
 
-![Concept: Default view (no filter applied)](./Images/concept_nofilter.png)
-![Concept: Security filter view](./Images/concept_filter.png)
+![Concept: Default view (no filter applied)](./img/concept_nofilter.png)
+
+![Concept: Security filter view](./img/concept_filter.png)
 
 ## Can I view any AWS product and service with CHLOE?
 
@@ -340,7 +341,7 @@ Features and use cases that emerged from research include:
 experience using VR arenas (product image from
 [KAT VRMIS](https://www.kat-vr.com/pages/vr_arena)).
 
-![Concept: Example KatVR arena](./Images/concept_katvr_arena.png)
+![Concept: Example KatVR arena](./img/concept_katvr_arena.png)
 
 **Expanded Recommendations:** Initially, CHLOE will be limited in functionality.
 As players use the system and provide feedback, CHLOE will be expanded in scope
