@@ -1,4 +1,4 @@
-# Research Tasks
+# Research Topics
 
 The following items need to be researched in more depth so that we can figure
 out a design that makes sense.
