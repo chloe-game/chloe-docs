@@ -1,5 +1,3 @@
 title: CHLOE
 description: Cloud Hosting and Learning Optimization Environment
-remote_theme: hacker
-plugins:
-  - jekyll-remote-theme
+theme: leap-day
