@@ -1,3 +1,7 @@
+---
+layout: post
+---
+
 # Game Overview
 
 Cloud Hosting and Learning Optimization Environment (CHLOE), a game-based
