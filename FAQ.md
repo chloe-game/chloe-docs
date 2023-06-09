@@ -38,6 +38,16 @@ related to specific tasks they are performing. Players can request information
 in the form of audio or text explanations, streaming video, or in-game
 architecture demonstrations.
 
+## What are the hardware requirements to play?
+
+We recommend the following hardware for using CHLOE.
+
+- **Operating System**
+  - Windows 10 or later
+  - macOS Catalina or later
+- **Hardware**
+  - _TBD - Pending benchmark testing_
+
 ## Do I need an AWS account to play?
 
 An active AWS account and credentials are required for players who wish to use
@@ -49,8 +59,8 @@ changes.
 CHLOE is free to download and install. This is being developed entirely as a
 learning project, with no expectation of the team realizing any profits.
 
-**However, players are responsible for charges incurred when launching any live
-AWS resources using CHLOE.**
+**Players are responsible for charges incurred when launching any live AWS
+resources using CHLOE.**
 
 ## Does CHLOE launch any resources in my AWS account(s)?
 
@@ -337,33 +347,40 @@ Features and use cases that emerged from research include:
 
 ## What are some large, long-term goals of CHLOE?
 
-**VR Training Classes:** CHLOE would be used to deliver a unique training
-experience using VR arenas (product image from
-[KAT VRMIS](https://www.kat-vr.com/pages/vr_arena)).
+### VR Training Classes
+
+CHLOE would be used to deliver a unique training experience using VR arenas
+(product image from [KAT VRMIS](https://www.kat-vr.com/pages/vr_arena)).
 
 ![Concept: Example KatVR arena](./img/concept_katvr_arena.png)
 
-**Expanded Recommendations:** Initially, CHLOE will be limited in functionality.
-As players use the system and provide feedback, CHLOE will be expanded in scope
-to provide training, feedback, and recommendations that are more contextually
-aware of the players' AWS accounts, gameplay history, current and past activity,
-and goals. This data will be used by a recommendation engine to provide specific
-suggestions on how to best leverage AWS technologies and training.
+### Expanded Recommendations
 
-**Socialization and Sharing:** As players build new and innovative workloads
-with CHLOE, the ability to share and work across users and organizations will
-become a useful engagement mechanism. CHLOE would support sharing features such
-as [Steam Workshop](https://steamcommunity.com/workshop/) and
+Initially, CHLOE will be limited in functionality. As players use the system and
+provide feedback, CHLOE will be expanded in scope to provide training, feedback,
+and recommendations that are more contextually aware of the players' AWS
+accounts, gameplay history, current and past activity, and goals. This data will
+be used by a recommendation engine to provide specific suggestions on how to
+best leverage AWS technologies and training.
+
+### Socialization and Sharing
+
+As players build new and innovative workloads with CHLOE, the ability to share
+and work across users and organizations will become a useful engagement
+mechanism. CHLOE would support sharing features such as
+[Steam Workshop](https://steamcommunity.com/workshop/) and
 [GitHub](https://github.com/), where players can share their creations as
 deployable workloads. In the interest of security, players would have the
 ability to disable this functionality.
 
-**Persistent Multiplayer:** Initially, CHLOE supports multiple builders
-automatically (without persistence). To foster collaboration within teams and
-organizations, CHLOE would support persistent multiplayer, allowing players to
-see and interact with one another from within their AWS environment. This would
-also include the ability for players to create personal avatars, adding an
-additional aspect of identity and culture.
+### Persistent Multiplayer
+
+Initially, CHLOE supports multiple builders automatically (without persistence).
+To foster collaboration within teams and organizations, CHLOE would support
+persistent multiplayer, allowing players to see and interact with one another
+from within their AWS environment. This would also include the ability for
+players to create personal avatars, adding an additional aspect of identity and
+culture.
 
 ## Will CHLOE store my personal data?
 
@@ -377,3 +394,30 @@ the point where players are using the game and metrics are able to be collected,
 the full list of data being stored will be posted publicly. If you're running
 CHLOE in an isolated environment, even the anonymized data will not be sent
 anywhere.
+
+## How will success be measured?
+
+Success will be measured based on the following metrics:
+
+- Usage
+  - New user downloads
+  - Daily active users (DAU)
+  - Monthly active users (MAU)
+  - Sessions (average per DAU)
+  - Retention (1-, 3-, 7-, 30-day measure)
+  - Churn (28-day measure)
+- Game progression (per level, per player)
+  - Start count
+  - Failure count
+  - Completion count
+  - Completion time
+  - "Beat" duration (time to reach critical level stages)
+- Simulation usage
+  - Session count
+  - Session duration
+  - AWS resource usage
+- Feedback
+  - In-game feedback submission rate
+  - In-game feedback submission score
+  - Bug report submissions
+  - Feature request submissions
